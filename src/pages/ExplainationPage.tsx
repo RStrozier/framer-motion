@@ -32,7 +32,7 @@ const ExplainationPage = () => {
 
         <Link to="/framer" 
         className="text-blue-800 hover:text-blue-600 underline font-medium cursor-pointer">
-          <div className="text-center mt-4 text-2xl">Framer Demo</div>
+          <div className="text-center mt-4 text-2xl">Click To View Framer Demo</div>
         </Link>
         <div className="text-center text-red-600 font-semibold">(using V6 routing)</div>
       </section>
