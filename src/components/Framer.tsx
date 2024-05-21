@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const Framer = () => {
+    // using tailwind css for all styling
   return (
     <>
       <Link to="/">
@@ -15,9 +16,13 @@ const Framer = () => {
         <div className="flex justify-center items-center space-x-4 mb-4">
           {/* 1st square */}
           <motion.div
+        //   takes in 3 arguments 
             className="square w-60 h-60 bg-gray-500 rounded-none relative"
+            // how the animation starts
             initial={{ scale: 0, opacity: 0 }}
+            // how the animation ends
             animate={{ scale: 1, opacity: 1 }}
+            // how long the animation runs/ the delays etc.
             transition={{ duration: 0.5, delay: 0 }}
           >
             {/* 1st circle */}
